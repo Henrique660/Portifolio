@@ -1,0 +1,59 @@
+@import url('https://fonts.cdnfonts.com/css/nimbus-mono');
+
+body{
+    font-weight: bold;
+    background-image: url(img/BKG002.png);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    display:table;
+}
+
+
+h2{
+    text-align: center;
+    color: #0817a5ea;
+    font-family: 'Nimbus Mono', sans-serif;
+    font-weight: bold;
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+    border-radius: 12px;
+    padding: 20px 40px;
+    backdrop-filter: blur(15px);
+}
+
+table{
+    font-family: 'Nimbus Mono', sans-serif;
+    font-weight: bold;
+    width: 100%; 
+}
+
+table, th, td{
+    border: 2px solid rgb(0, 0, 0);
+    backdrop-filter: blur(15px);
+    color: #c0c0c0;
+}
+
+p{
+    backdrop-filter: blur(15px);
+    border-radius: 6px;
+    text-align: center;
+    color: #c0c0c0;
+
+}
+
+ul, li {
+    text-align: center;
+    backdrop-filter: blur(15px);
+    border-radius: 2px;
+    color: #c0c0c0;
+}
+
+button{
+    font-family: 'Nimbus Mono', sans-serif;
+    font-weight: bold;
+
+}
+
+button:hover{
+    color:#013968ec;
+}

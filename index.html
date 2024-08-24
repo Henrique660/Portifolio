@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/ico001.png" type="image/x-icon">
+    <title>Trabalho ADS</title>
+</head>
+<body>
+    <div class="wrapper">
+        <form action="">
+            <h1><span>Seja</span> bem <span>vindo</span></h1>
+            <div class="box">
+                <div class="input-box">
+                   <button type="button" id="btnFormacao">Minhas formação</button>
+                </div>
+                <div class="input-box">
+                    <button type="button" id="btnPorti">Meus Projetos</button>
+                 </div>
+                 <div class="input-box">
+                    <button type="button" id="btnSobre">A Verdade por Trás do Código</button>
+                 </div>
+            </div>
+        </form>
+    </div>
+<script>
+    document.getElementById("btnFormacao").onclick = function(){
+        document.location.href = 'formacao.html'
+    }
+    document.getElementById("btnPorti").onclick = function(){
+        document.location.href = 'porti.html'
+    }
+    document.getElementById("btnSobre").onclick = function(){
+        document.location.href = 'sobre.html'
+    }
+</script>
+</body>
+</html>
