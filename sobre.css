@@ -2,7 +2,7 @@
 
 body{
     font-weight: bold;
-    background-image: url(BKG002.png);
+    background-image: url(img/BKG002.png);
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
@@ -13,19 +13,24 @@ h2{
     color: #c0c0c0;
     font-family: 'Nimbus Mono', sans-serif;
     font-weight: bold;
+    border-radius: 12px;
+    padding: 20px 40px;
+    backdrop-filter: blur(15px);
 }
 
 p{
     text-align: center;
     color: #c0c0c0;
     font-family: 'Nimbus Mono', sans-serif;
-    font-weight: bold; 
+    font-weight: bold;
+    border-radius: 12px;
+    padding: 20px 40px;
+    backdrop-filter: blur(15px); 
 }
 
 button{
     font-family: 'Nimbus Mono', sans-serif;
     font-weight: bold;
-
 }
 
 button:hover{
