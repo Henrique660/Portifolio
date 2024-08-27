@@ -7,7 +7,7 @@ span:hover{
     color: #d0da4f;
 }
 body{
-    background-image: url(img/BKG002.png);
+    background-image: url(BKG002.png);
     background-position: center;
     background-attachment: fixed;
     background-size: cover;  
